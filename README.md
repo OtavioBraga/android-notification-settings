@@ -4,16 +4,16 @@ This native module provides a method to directly open the notification settings'
 
 ## Getting started
 
-`$ yarn add rn-android-notification-settings`
+`$ yarn add android-notification-settings`
 
 ### Linking
 
-`$ react-native link rn-android-notification-settings`
+`$ react-native link android-notification-settings`
 
 ## Usage
 
 ```ts
-import AndroidNotificationSettings from "rn-android-notification-settings";
+import AndroidNotificationSettings from "android-notification-settings";
 
 AndroidNotificationSettings.openNotificationSettings(); // Opens app's system notification settings.
 ```
